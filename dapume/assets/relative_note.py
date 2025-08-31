@@ -1,4 +1,4 @@
-class RelativeNote():
+class RelativeNote:
     def __init__(
         self,
         track_no: int = 0,

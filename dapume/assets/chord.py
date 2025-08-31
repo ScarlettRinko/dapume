@@ -2,12 +2,12 @@ import re
 from math import ceil
 from typing import Optional
 
-from assets.chord_typing import ChordFamily, ChordInterval, ChordType
-from assets.constants import (CHORD_FAMILIES, CHORD_FAMILY_NOTES,
+from .chord_typing import ChordFamily, ChordInterval, ChordType
+from .constants import (CHORD_FAMILIES, CHORD_FAMILY_NOTES,
                               CHORD_INDEX_TO_PITCH, CHORD_INTERVAL_TO_INDEX,
                               CHORD_TYPES, RE_PATTERN_CHORD_SUFFIX,
                               SOLFEGE_PITCH)
-from assets.relative_note import RelativeNote
+from .relative_note import RelativeNote
 
 
 class Chord:

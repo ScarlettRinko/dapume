@@ -2,11 +2,11 @@ import re
 
 from mido import Message, MidiFile, MidiTrack
 
-from assets.absolute_note import AbsoluteNote
-from assets.score_parameters import ScoreParameters
-from assets.note_line import NoteLine
+from .absolute_note import AbsoluteNote
+from .score_parameters import ScoreParameters
+from .note_line import NoteLine
 
-class LinearScore():
+class LinearScore:
     def __init__(self, score: str) -> None:
         self.score = score
         self.track_notes: list[list[AbsoluteNote]] = []

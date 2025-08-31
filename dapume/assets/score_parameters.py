@@ -1,4 +1,4 @@
-class ScoreParameters():
+class ScoreParameters:
     def __init__(
         self,
         is_changed: bool = False,

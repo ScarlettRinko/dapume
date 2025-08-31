@@ -1,6 +1,7 @@
 output.*
+*.mid
 __pycache__*
-test*
+dist/
 
 fluidsynth
-soundfont.sf2
+*.sf2

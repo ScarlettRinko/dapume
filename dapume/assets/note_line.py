@@ -1,11 +1,11 @@
-from assets.absolute_note import AbsoluteNote
-from assets.chord import Chord
-from assets.constants import NOTATION_BEATS, NOTATION_PITCH, SOLFEGE_PITCH
-from assets.relative_note import RelativeNote
-from assets.score_parameters import ScoreParameters
+from .absolute_note import AbsoluteNote
+from .chord import Chord
+from .constants import NOTATION_BEATS, NOTATION_PITCH, SOLFEGE_PITCH
+from .relative_note import RelativeNote
+from .score_parameters import ScoreParameters
 
 
-class NoteLine():
+class NoteLine:
     """音符行"""
     def __init__(self, score: str, param: ScoreParameters = ScoreParameters()) -> None:
         self.score = score

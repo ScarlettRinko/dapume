@@ -1,11 +1,11 @@
-class AbsoluteNote():
+class AbsoluteNote:
     def __init__(
         self,
         track_no: int = 0,
         pitch: int = 0,
         start_time: int = 0,
         duration: int = 0,
-    ) -> None:
+    ):
         """初始化 AbsoluteNote 绝对音符.
 
         Args:
